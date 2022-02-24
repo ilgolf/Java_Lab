@@ -1,4 +1,4 @@
-package generic;
+package generic.toy;
 
 public class Toy {
 
@@ -16,5 +16,13 @@ public class Toy {
 
     public String getType() {
         return type;
+    }
+
+    @Override
+    public String toString() {
+        return "Toy{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                '}';
     }
 }
