@@ -1,4 +1,4 @@
-package generic;
+package generic.food;
 
 public class Food {
 

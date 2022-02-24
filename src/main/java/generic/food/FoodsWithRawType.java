@@ -1,4 +1,4 @@
-package generic;
+package generic.food;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,11 @@
-package generic;
+package generic.food;
 
-public class FoodAppWithGenericType {
+import generic.toy.Toy;
+
+public class FoodAppWithRawType {
 
     public static void main(String[] args) {
-        FoodsWithGeneric foodsRaw = new FoodsWithGeneric();
+        FoodsWithRawType foodsRaw = new FoodsWithRawType();
 
         Food steak = new Food("스테이크", "맛있음");
         Food chicken = new Food("치킨", "짜면서 맛있음");
@@ -13,7 +15,7 @@ public class FoodAppWithGenericType {
         foodsRaw.addFood(steak);
         foodsRaw.addFood(chicken);
         foodsRaw.addFood(bread);
-//      foodsRaw.addFood(gunDam); // 컴파일 오류
+        foodsRaw.addFood(gunDam);
 
         foodsRaw.print();
     }
